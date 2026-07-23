@@ -1,5 +1,4 @@
 # 🔒 Day 5 – Docker Hub Security
-
 ## 📌 Objective
 
 Learn Docker image security by downloading trusted images, inspecting image metadata, scanning images for vulnerabilities using Trivy, comparing official and community images, and safely removing unused images.
