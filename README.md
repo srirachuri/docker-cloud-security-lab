@@ -1,253 +1,228 @@
 # 🐳 Docker for Cloud Security
 
-A hands-on Docker learning repository covering container fundamentals, image management, Docker Compose, security best practices, vulnerability scanning, and real-world cloud security projects.
+## 📌 About
 
-## 📖 About
+This repository documents my **19-day Docker learning journey**, where I practised Docker fundamentals, Docker security, Docker Compose, image building, container networking, vulnerability scanning, and containerising Python applications.
 
-This repository documents my Docker learning journey as I prepare for a career in **Cloud Security** and **Cloud Engineering**.
-
-The repository includes:
-
-- Docker fundamentals
-- Container lifecycle management
-- Docker images & Docker Hub
-- Networking and logging
-- Dockerfile creation
-- Environment variables
-- Docker Compose
-- Docker security scanning with Trivy
-- Real-world cloud security scenarios
-- Portfolio projects
+The goal of this repository is to build hands-on experience with Docker while following security best practices commonly used by Cloud Security Engineers and DevOps professionals.
 
 ---
 
-# 📚 Topics Covered
+## 🚀 Skills Covered
 
-## Day 1 – Docker Fundamentals
+- Docker Fundamentals
+- Docker Images & Containers
+- Docker Hub
+- Docker Networking
+- Container Logs
+- Dockerfile
+- Secure Docker Images
+- Docker Compose
+- Environment Variables
+- Data Persistence
+- Container Security
+- Trivy Vulnerability Scanning
+- Redis & Nginx Deployment
+- Python Application Containerization
 
-- What is Docker?
+---
+
+# 📚 Topics Practised
+
+## Day 1
+- Docker Core Concepts
 - Containers vs Virtual Machines
-- Images vs Containers
+- Docker Images
 - Docker Daemon
 - Docker Registry
-- Running the first Nginx container
 
----
+## Day 2
+- Running First Containers
+- Interactive Ubuntu Container
+- Container Lifecycle
 
-## Day 2 – Container Management
+## Day 3
+- Cleaning Up Docker Containers
+- Removing Unused Containers
 
-- Run containers
-- Interactive Ubuntu container
-- List containers
-- Stop containers
-- Remove containers
-- Docker cleanup
-
-Mini Project:
-- Docker Container Manager
-
----
-
-## Day 3 – Docker Images
-
+## Day 4
+- Docker Images
 - Docker Hub
-- Pull images
-- Inspect images
-- Image history
-- Remove images
-- Official vs Community Images
+- Managing Images
 
-Security Topics
+## Day 5
+- Docker Hub Security
+- Trusted Images
+- Image Inspection
+- Trivy Scanning
 
-- Trusted images
-- Image verification
-- Image vulnerability scanning using Trivy
+## Day 6
+- Docker Image Investigation
+- Image History
+- Image Integrity
 
-Mini Project:
-- Docker Image Security Review
+## Day 7
+- Docker Networking
+- Port Mapping
+- Container Logs
+- Log Monitoring
 
----
-
-## Day 4 – Docker Networking & Logs
-
-Topics
-
-- Port mapping
-- Exposed ports
-- Container logs
-- Live log monitoring
-- Network verification
-
-Security Focus
-
-- Attack surface
-- Exposed ports
-- Log investigation
-- Suspicious container activity
-
-Mini Projects
-
+## Day 8
 - Secure Nginx Deployment
+- Port Verification
+- Security Validation
+
+## Day 9
 - Docker Incident Investigation
+- Container Inspection
+- Log Analysis
 
----
+## Day 10
+- Dockerfile Basics
+- Building Custom Images
 
-## Day 5 – Dockerfile
+## Day 11
+- Secure Docker Images
+- Non-root Containers
+- Vulnerability Scanning
 
-Learned
+## Day 12
+- Standardised Development Environment
+- Docker Image Distribution
 
-- FROM
-- RUN
-- COPY
-- CMD
+## Day 13
+- Environment Variables
+- Data Persistence
 
-Built
+## Day 14
+- Secure Application Configuration
+- Build Once, Deploy Anywhere
 
-- Custom Docker image
-- Secure Docker image
-- Non-root containers
-- Minimal images
+## Day 15
+- Docker Compose
+- Multi-container Applications
 
-Mini Project
-
-- Secure Ubuntu Image
-
----
-
-## Day 6 – Environment Variables
-
-Topics
-
-- Runtime variables
-- Docker ENV
-- Build once, deploy anywhere
-- Secure configuration
-
-Security Focus
-
-- Avoid hardcoded passwords
-- Secrets management
-- Configuration security
-
----
-
-##  Day 7 – Docker Compose
-
-Learned
-- compose.yaml
-- Multi-container applications
+## Day 16
+- Secure Docker Compose
 - Networks
 - Volumes
-- Container orchestration
+- Security Review
 
-Project
-
-- Nginx
-- MySQL
-- Redis
-
----
-
-## Day 8 – Docker Security
-Used
-
+## Day 17
+- Docker Security Scanning
 - Trivy
+- CVE Analysis
 
-Scanned
-
-- Official images
-- Custom images
-
-Reviewed
-- CVEs
-- Severity
-- Installed packages
-- Fixed versions
----
-
-## Day 9 – Portfolio Project
-Built a secure multi-container application using
+## Day 18
+- Docker Compose Project
 - Nginx
 - Redis
-- Docker Compose
+- Static Website
+- Security Best Practices
 
-Features
-- Read-only filesystem
-- Official images
-- Named volumes
-- Custom bridge network
-- Security options
-
----
-
-## Day 10 – Python in Docker
-Containerised a Python application.
-Topics
-- Python Dockerfile
-- Non-root user
-- WORKDIR
+## Day 19
+- Containerised Python Application
+- Secure Dockerfile
+- Non-root User
 - .dockerignore
-- Secure container practices
+- Docker Image Build
 
 ---
 
-# 🔒 Security Best Practices Learned
-- Use official Docker images
-- Keep images updated
-- Scan images with Trivy
-- Use non-root containers
-- Reduce image size
-- Avoid hardcoded secrets
-- Use environment variables
-- Expose only required ports
-- Monitor container logs
-- Review image metadata
-- Apply least privilege
-- Remove unused containers and images
+# 🛠 Technologies Used
 
----
-
-# 🛠 Technologies
-
-- Docker
+- Docker Desktop
+- Docker Engine
 - Docker Compose
+- Docker Hub
+- Python
 - Ubuntu
 - Nginx
 - Redis
-- MySQL
-- Python
 - Trivy
+- Windows PowerShell
 
 ---
 
-# 🚀 Skills Gained
+# 📂 Repository Structure
 
-- Docker fundamentals
-- Container lifecycle management
-- Image management
-- Dockerfile creation
+```
+Docker/
+│
+├── Day-01
+├── Day-02
+├── Day-03
+├── ...
+├── Day-18
+├── Day-19
+└── README.md
+```
+
+---
+
+# 🎯 What I Learned
+
+- Running Docker containers
+- Managing Docker images
+- Building custom Docker images
+- Writing Dockerfiles
+- Using Docker Compose
+- Working with networks and volumes
+- Container security best practices
+- Running containers as non-root users
+- Vulnerability scanning using Trivy
+- Investigating Docker containers
+- Deploying multi-container applications
+- Containerising Python applications
+
+---
+
+# 🔐 Security Practices Followed
+
+- Used official Docker images
+- Ran containers as non-root users
+- Used lightweight images where appropriate
+- Scanned images using Trivy
+- Avoided hardcoded secrets
+- Used environment variables for configuration
+- Reduced image size with `.dockerignore`
+- Removed unused Docker resources
+
+---
+
+# 📸 Screenshots
+
+Each day's folder contains screenshots showing:
+
+- Commands executed
+- Docker outputs
+- Container verification
+- Security scans
+- Project results
+
+---
+
+# 🎓 Learning Outcome
+
+After completing these 19 days of Docker practice, I gained practical experience with:
+
+- Docker Fundamentals
+- Docker Security
+- Container Management
 - Docker Compose
-- Networking
-- Logging
-- Container security
-- Vulnerability scanning
-- Secure container deployment
+- Secure Image Creation
+- Vulnerability Assessment
+- Multi-container Deployments
+- Python Containerization
+
+These projects form part of my Cloud Security and DevOps portfolio.
 
 ---
 
-# Career Goal
+## ⭐ Author
 
-This repository is part of my Cloud Security learning roadmap and demonstrates practical Docker skills relevant to roles such as:
+**SRI GAYATHRI**
 
-- Cloud Support Engineer
-- Cloud Operations Engineer
-- Junior Cloud Security Engineer
-- SOC Analyst
-- DevSecOps Engineer
+Aspiring Cloud Security Engineer
 
----
-
-
-## 📜 License
-
-This project is created for educational and portfolio purposes.
+Learning Linux • Docker • Python • Cloud • Cybersecurity
