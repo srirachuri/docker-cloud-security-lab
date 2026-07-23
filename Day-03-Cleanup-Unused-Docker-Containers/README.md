@@ -1,5 +1,4 @@
 # 🧹 Day 3 Cleaning Up Unused Docker Containers
-
 ## 📌 Objective
 
 Learn how to identify, remove, and verify unused Docker containers to keep the Docker environment clean and organized.
